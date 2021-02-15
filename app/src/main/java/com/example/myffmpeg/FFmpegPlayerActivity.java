@@ -37,6 +37,7 @@ public class FFmpegPlayerActivity extends AppCompatActivity implements SeekBar.O
         player = new MyFfmpegPlayer();
         player.setSurfaceView(surfaceView);
         String dataSource = Environment.getExternalStorageDirectory().getAbsolutePath()+ File.separator + "tmp" + File.separator + "123.mp4";
+        //dataSource = "http://vodkgeyttp8.vod.126.net/cloudmusic/89f2/core/1707/96b8b3f110131facb70cecc1874f823c.mp4?wsSecret=b0cc07cb5a0099dae1582a737a2ebac3&wsTime=1613401358";
 //        player.setDataSource(new File(
 //                Environment.getExternalStorageDirectory() + File.separator + "demo.mp4").getAbsolutePath());
         player.setDataSource(dataSource);
